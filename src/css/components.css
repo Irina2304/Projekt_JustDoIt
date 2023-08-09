@@ -1,0 +1,50 @@
+:root {
+  --primary-font: 'Montserrat', sans-serif;
+  --main-color: #fd9222;
+  --secondary-color: #1e1823;
+  --color-white: #ffffff;
+  --accent-color: #fcf1e0;
+  --main-text-color: #111111;
+  --text-color-dark-bg: #fafafa;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-pad {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-pad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-pad {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+}
